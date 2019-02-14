@@ -3,7 +3,7 @@
 ###
 # Replace items in square brackets [ ] as indicated
 ###
-# Script name: nrsReports_RC.R
+# Script name: JAVA_CSV_Clean_RC.R
 # Creator:  Ian King
 # Created:  August 30, 2018
 # Script Purpose:  This script is used to transform the standard JIRA csv export with multiple component, 
