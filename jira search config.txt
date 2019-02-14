@@ -1,7 +1,7 @@
 JIRA Configuration
 Create and Save a query
 
-An example query …
+An example query â€¦
 This query returns all records created in the last two weeks or remaining open from a previous period.
 project = "Application Maintenance Service" AND (status not in (Closed, Resolved) OR resolutiondate >= startOfWeek(-2w)) AND issuetype in ("ITIL Incident", "ITIL Problem", Task, Inquiry) ORDER BY key DESC
 
