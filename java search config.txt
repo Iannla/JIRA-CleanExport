@@ -1,0 +1,23 @@
+JIRA Configuration
+Create and Save a query
+
+An example query …
+This query returns all records created in the last two weeks or remaining open from a previous period.
+project = "Application Maintenance Service" AND (status not in (Closed, Resolved) OR resolutiondate >= startOfWeek(-2w)) AND issuetype in ("ITIL Incident", "ITIL Problem", Task, Inquiry) ORDER BY key DESC
+
+Setup the columns displayed in JIRA to display the following (12 Columns)
+Issue Type
+Issue Key
+Summary
+Assignee
+Reporter
+Priority
+Status
+Resolution
+Created
+Component/s
+Linked Issues
+Labels
+
+Click on Search
+Click on Export and select CSV (Current fields)
